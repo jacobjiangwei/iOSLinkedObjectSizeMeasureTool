@@ -41,3 +41,6 @@ Step:
 ![](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/resources/compareData.png?raw=true)
 7. This is optional, click XLS chart to select a folder to save chart.cvs file. Use Excel or Numbers to import cvs, Selct "Tab" as delimiters to finish import, select data, generate 2 line chart, you will have a cool visualized chart showing you are improving or fall back.
 ![](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/resources/chart.png?raw=true)
+
+
+In above example, you can clearly see we are not optimized for new added features. Then we know what to do next.
