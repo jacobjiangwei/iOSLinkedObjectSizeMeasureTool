@@ -1,5 +1,6 @@
 # A mac tool to visualize iOS linked object size change between different version
 
+- [中文版](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/READMECN.md)
 
 As time passing by, Production managers keep adding features, app become bigger and bigger, launch time increases. It become a major issue for big company with tons of feature they can't cut.
 
@@ -22,6 +23,7 @@ To enable that, you need set YES for write link map file.
 ![](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/resources/enableLinked.png?raw=true)
 
 Lucky someone provide a tool to analyse linked object files map and list all by size. https://github.com/alicialy/LTAppThinningScript
+
 run "node linkmap_ext.js /Users/jacob/Library/Developer/Xcode/DerivedData/Glip-cpijjvpuwarqlyclgmpmpuwlfbsb/Build/Intermediates/Glip.build/Debug-iphoneos/Glip.build/Glip-LinkMap-normal-arm64.txt -u"
 
 With benefit of that tool, you have a clear idea who is cost most in your project, you may start having an idea how to improve it.
