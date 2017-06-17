@@ -10,6 +10,7 @@ Here is a (not well known) tip to print all statistics of launch time, everythin
 ![](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/resources/enablePrint.png?raw=true)
 
 Here is a sample of cold launch data:
+![](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/resources/printstatics.png?raw=true)
 
 You look at it, you endup saying "Wow, Xcode so Cool", but what you going to do about it?
 
@@ -21,9 +22,9 @@ To enable that, you need set YES for write link map file.
 ![](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/resources/enableLinked.png?raw=true)
 
 Lucky someone provide a tool to analyse linked object files map and list all by size. https://github.com/alicialy/LTAppThinningScript
-### run "node linkmap_ext.js /Users/jacob/Library/Developer/Xcode/DerivedData/Glip-cpijjvpuwarqlyclgmpmpuwlfbsb/Build/Intermediates/Glip.build/Debug-iphoneos/Glip.build/Glip-LinkMap-normal-arm64.txt -u"
+run "node linkmap_ext.js /Users/jacob/Library/Developer/Xcode/DerivedData/Glip-cpijjvpuwarqlyclgmpmpuwlfbsb/Build/Intermediates/Glip.build/Debug-iphoneos/Glip.build/Glip-LinkMap-normal-arm64.txt -u"
 
-### With benefit of that tool, you have a clear idea who is cost most in your project, you may start having an idea how to improve it.
+With benefit of that tool, you have a clear idea who is cost most in your project, you may start having an idea how to improve it.
 
 ## Here I provide a visualized tool to measure your changes between different version of your app, so you clearly understand what your code activity impact was.
 
@@ -36,5 +37,5 @@ Step:
 5. Select New version link map file
 6. Click start analyse, you will see comparison 
 ![](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/resources/compareData.png?raw=true)
-7. Optional, Click XLS chart to select a folder to save chart.cvs file. Use Excel or Numbers to import cvs, Selct "Tab" as delimiters to finish import, select data, generate 2 line chart, you will have a cool visualized chart showing you are improving or fall back.
+7. This is optional, click XLS chart to select a folder to save chart.cvs file. Use Excel or Numbers to import cvs, Selct "Tab" as delimiters to finish import, select data, generate 2 line chart, you will have a cool visualized chart showing you are improving or fall back.
 ![](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/resources/chart.png?raw=true)
