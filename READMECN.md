@@ -30,12 +30,12 @@ run "node linkmap_ext.js /Users/jacob/Library/Developer/Xcode/DerivedData/Glip-c
 
 步骤：
 
-1.编译旧分支并获取linkmap文件，运行“node linkmap_ext.js /Users/jacob/Library/Developer/Xcode/DerivedData/Glip-cpijjvpuwarqlyclgmpmpuwlfbsb/Build/Intermediates/Glip.build/Debug-iphoneos/Glip.build/Glip -LinkMap-normal-arm64.txt -u“
-2.编译新分支并获取linkmap文件，运行“node linkmap_ext.js /Users/jacob/Library/Developer/Xcode/DerivedData/Glip-cpijjvpuwarqlyclgmpmpuwlfbsb/Build/Intermediates/Glip.build/Debug-iphoneos/Glip.build/Glip -LinkMap-normal-arm64.txt -u“
-3.使用Xcode 9构建运行此项目
-4.选择旧版本的链接映射文件
-5.选择新版本的链接映射文件
-6.点击开始分析，你会看到比较
+1. 编译旧分支并获取linkmap文件，运行“node linkmap_ext.js /Users/jacob/Library/Developer/Xcode/DerivedData/Glip-cpijjvpuwarqlyclgmpmpuwlfbsb/Build/Intermediates/Glip.build/Debug-iphoneos/Glip.build/Glip -LinkMap-normal-arm64.txt -u“
+2. 编译新分支并获取linkmap文件，运行“node linkmap_ext.js /Users/jacob/Library/Developer/Xcode/DerivedData/Glip-cpijjvpuwarqlyclgmpmpuwlfbsb/Build/Intermediates/Glip.build/Debug-iphoneos/Glip.build/Glip -LinkMap-normal-arm64.txt -u“
+3. 使用Xcode 9构建运行此项目
+4. 选择旧版本的链接映射文件
+5. 选择新版本的链接映射文件
+6. 点击开始分析，你会看到比较
 ![](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/resources/compareData.png?raw=true)
-7.这是可选的，单击XLS图表选择一个文件夹来保存chart.cvs文件。使用Excel或数字导入cvs，Selct“Tab”作为分隔符完成导入，选择数据，生成2线图，您将有一个很酷的可视化图表，显示您正在改进或回退。
+7. 这是可选的，单击XLS图表选择一个文件夹来保存chart.cvs文件。使用Excel或数字导入cvs，Selct“Tab”作为分隔符完成导入，选择数据，生成2线图，您将有一个很酷的可视化图表，显示您正在改进或回退。
 ![](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/resources/chart.png?raw=true)
