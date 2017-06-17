@@ -43,4 +43,4 @@ Step:
 ![](https://github.com/jacobjiangwei/iOSLinkedObjectSizeMeasureTool/blob/master/resources/chart.png?raw=true)
 
 
-In above example, you can clearly see we are not optimized for new added features. Then we know what to do next.
+In above example, red is new version, blue is old version. You can clearly see we are not optimized for new added features. Then we know what to do next.
